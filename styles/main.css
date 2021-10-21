@@ -1,0 +1,74 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.parallax-img1, .parallax-img2, .parallax-img3 {
+    max-width:100%;
+    height:auto;
+    opacity: 0.75;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-hs {
+    margin-block: 32px;
+}
+
+.parallax-img1 {
+    background-image: url("../assets/principal-image.jpg");
+}
+
+.parallax-img2 {
+    background-image: url("../assets/dag-background-blue.jpg");
+}
+
+.parallax-img3 {
+    background-image: url("../assets/dag-background-blue.jpg");
+}
+
+.contText {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    background-color: #cccccc;
+    margin-left: 22px;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    max-width: 100%;
+    width: 70vw;
+}
+  
+.one, .two, .three {
+    font-size: 30px;
+    font-weight: bold;
+    height: 200px;
+    line-height: 200px;
+    margin: 0.5em;
+    text-align: center;
+    width: 300px;
+}
+
+.container-property {
+    margin-bottom: 12px;
+}
+
+footer {
+    padding: 0px !important
+}
+  
